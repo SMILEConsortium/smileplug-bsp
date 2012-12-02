@@ -52,6 +52,8 @@ Additional Software:
 * virtualenv goenv
 * . ./goenv/bin/activate
 
+Default Root and SUDO configuration:
+See: http://archlinuxarm.org/support/guides/system/first-steps
 
 I've also added for testing:
 
@@ -60,7 +62,8 @@ I've also added for testing:
 * afps-fs (may consider adding this to above list)
 
 Some manual commands to run in the configuration of a new BSP based on arch:
-
+* For UFW, open all connections from the associated networks for the administrative 
+  network 10.0.0.0 and the default WIFI AP network 10.1.0.0
     # This generates the /usr/lib/ufw/user.conf commands used to store the rules
     ufw allow from 10.0.0.0/24
     ufw allow from 10.1.0.0/24
