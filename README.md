@@ -13,8 +13,7 @@ Pacman Package Manifest
 * python
 * python2-distribute
 * python2-pyopenssl
-* jdk (? TBD)
-* git (for testing ... will consider leaving this in)
+* iperf
 
 > pacman -S openssl gcc nodejs make
 
@@ -57,7 +56,6 @@ See: http://archlinuxarm.org/support/guides/system/first-steps
 
 I've also added for testing:
 
-* iperf
 * ntop
 * afps-fs (may consider adding this to above list)
 
