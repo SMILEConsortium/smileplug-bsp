@@ -21,8 +21,8 @@ Pacman Package Manifest
 NPM Modules:
 
 * forever (install in global)
-* forever-webui (npm package is busted, use BETA, off HEAD of https://github.com/SMILEConsortium/forever-webui.git) ,
-  wget https://nodeload.github.com/FGRibreau/forever-webui/tarball/master , install dependencies, access on port 8085
+* forever-webui (npm package is busted, public repo is defunt, so we have forked here, off HEAD of https://github.com/truedat101/forever-webui.git) ,
+  wget https://nodeload.github.com/truedat101/forever-webui/tarball/master , install dependencies, access on port 8085
 
 Other Non-NPM Node Software:
 * SMILE Server 0.2.3 (this holds pointers to all Android software used)
