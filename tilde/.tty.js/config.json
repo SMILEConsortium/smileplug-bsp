@@ -1,6 +1,6 @@
 {
   "users": {
-    "ttyfoo": "ttyfoo"
+    "root": "root"
   },
   "https": {
     "key": "./server.key",
