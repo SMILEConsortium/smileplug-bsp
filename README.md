@@ -10,7 +10,7 @@ Pacman Package Manifest
 * make
 * gcc
 * sysstat (we just use sar)
-* python2 (? - TBD)
+* python
 * python2-distribute
 * python2-pyopenssl
 * jdk (? TBD)
@@ -21,7 +21,6 @@ Pacman Package Manifest
 NPM Modules:
 * forever (install in global)
 * forever-webui (npm package is busted, use BETA, off HEAD of https://github.com/SMILEConsortium/forever-webui.git) , wget https://nodeload.github.com/FGRibreau/forever-webui/tarball/master , install dependencies, access on port 8085
-* sm (XXX TBD, may need this to get a decent cloud9ide install done)
 
 Scripts:
 * dhcpd-status.sh -> /root/spdist/dhcpd-pool-0.2/dhcpd-status-arch.sh
@@ -48,15 +47,10 @@ Python Modules:
 * sudo easy_install pip
 * sudo pip install virtualenv
 * sudo pip install virtualenvwrapper
-* tornado
-* kerberos
 
 Additional Software:
-* GateOne: https://github.com/liftoff/GateOne, forked on : https://nodeload.github.com/SMILEConsortium/GateOne/tarball/master (need to evaluate this Affereo GPL)
 * virtualenv goenv
 * . ./goenv/bin/activate
-* pip install tornado
-* pip install kerberos
 
 
 I've also added for testing:
