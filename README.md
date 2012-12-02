@@ -25,8 +25,8 @@ NPM Modules:
   wget https://nodeload.github.com/FGRibreau/forever-webui/tarball/master , install dependencies, access on port 8085
 
 Other Non-NPM Node Software:
-* SMILE Server
-* Plugmin Server
+* SMILE Server 0.2.3 (this holds pointers to all Android software used)
+* Plugmin Server 0.3.3
 
 Scripts:
 * dhcpd-status.sh -> /root/spdist/dhcpd-pool-0.2/dhcpd-status-arch.sh
@@ -62,7 +62,7 @@ Additional Software:
 * virtualenv goenv
 * . ./goenv/bin/activate
 
-Users:
+Users & Groups:
 
 * Default Root and SUDO configuration, see: http://archlinuxarm.org/support/guides/system/first-steps
 * No other non-default users

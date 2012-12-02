@@ -8,7 +8,6 @@
 PID=$(pidof -o %PPID $DAEMON)
 case "$1" in
   start)
-    cd $SERVERDIR
     stat_busy "Starting plugmind"
     [ -z "$PID" ] && $DAEMON $ARGS &> /dev/null &
     if [ $? -gt 0 ]; then
