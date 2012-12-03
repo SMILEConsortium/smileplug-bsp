@@ -6,4 +6,5 @@
 # ARGS="/root/plugmin-server/plugmin-server.js"
 ARGS="/root/plugmin-server/plugmin-server.js"
 SERVERDIR="/root/plugmin-server"
-DAEMON="/usr/bin/forever"
+# DAEMON="/usr/bin/forever"
+DAEMON="/usr/bin/node"
