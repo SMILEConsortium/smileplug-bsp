@@ -15,6 +15,7 @@ Pacman Package Manifest
 * python2-distribute
 * python2-pyopenssl
 * iperf
+* ntp (not openntpd)
 
 > pacman -S openssl gcc nodejs make
 
