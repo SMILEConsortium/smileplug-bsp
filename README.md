@@ -62,6 +62,8 @@ Additional Software:
 
 * virtualenv goenv
 * . ./goenv/bin/activate
+* A sample project for NIDE to use: https://github.com/jed/browserver-node/archive/master.tar.gz
+ (put into spdist, needs its package depends included)
 
 Users & Groups:
 
@@ -80,6 +82,8 @@ Some manual commands to run in the configuration of a new BSP based on arch:
     # This generates the /usr/lib/ufw/user.conf commands used to store the rules
     ufw allow from 10.0.0.0/24
     ufw allow from 10.1.0.0/24
+* setup the timezone for America/Los_Angeles
+/etc/localtime -> /usr/share/zoneinfo/America/Los_Angeles
 
 Firmware Releases:
 * rootfs:
