@@ -8,7 +8,7 @@
 PID=$(pidof -o %PPID $DAEMON)
 case "$1" in
   start)
-    stat_busy "Starting node"
+    stat_busy "Starting SMILE"
     [ -z "$PID" ] && $DAEMON $ARGS &> /dev/null &
     if [ $? -gt 0 ]; then
       stat_fail
@@ -18,7 +18,7 @@ case "$1" in
     fi
     ;;
   stop)
-    stat_busy "Stopping noded"
+    stat_busy "Stopping SMILE"
     [ ! -z "$PID" ]  && kill $PID &> /dev/null
     if [ $? -gt 0 ]; then
       stat_fail
