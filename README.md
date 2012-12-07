@@ -80,3 +80,9 @@ Some manual commands to run in the configuration of a new BSP based on arch:
     # This generates the /usr/lib/ufw/user.conf commands used to store the rules
     ufw allow from 10.0.0.0/24
     ufw allow from 10.1.0.0/24
+
+Firmware Releases:
+* rootfs:
+* uImage (kernel):
+* uBoot: 
+* ubifs rootfs.img: 
