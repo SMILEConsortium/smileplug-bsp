@@ -26,7 +26,7 @@ NPM Modules:
   wget  https://nodeload.github.com/truedat101/forever-webui/tar.gz/master , install dependencies, access on port 8085
 
 Other Non-NPM Node Software:
-* SMILE Server 0.2.3 (this holds pointers to all Android software used)
+* SMILE Server 0.2.4 (this holds pointers to all Android software used)
 * Plugmin Server 0.0.5
 
 Scripts:
