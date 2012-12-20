@@ -9,6 +9,7 @@ Pacman Package Manifest
 * nodejs
 * openssl
 * make
+* unzip
 * gcc
 * sysstat (we just use sar)
 * python
@@ -24,9 +25,10 @@ NPM Modules:
 * forever (install in global)
 * forever-webui (npm package is busted, public repo is defunt, so we have forked here, off HEAD of https://github.com/truedat101/forever-webui.git) ,
   wget  https://nodeload.github.com/truedat101/forever-webui/tar.gz/master , install dependencies, access on port 8085
+* ccn4bnode (0.2.5)
 
 Other Non-NPM Node Software:
-* SMILE Server 0.2.4 (this holds pointers to all Android software used)
+* SMILE Server 0.2.19 (this holds pointers to all Android software used)
 * Plugmin Server 0.0.5
 
 Scripts:
@@ -86,6 +88,7 @@ Some manual commands to run in the configuration of a new BSP based on arch:
 /etc/localtime -> /usr/share/zoneinfo/America/Los_Angeles
 
 Firmware Releases:
+SMILE BSP 0.0.3
 * rootfs:
 * uImage (kernel):
 * uBoot: 
