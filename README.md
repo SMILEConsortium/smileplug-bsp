@@ -86,10 +86,13 @@ Some manual commands to run in the configuration of a new BSP based on arch:
     ufw allow from 10.1.0.0/24
 * setup the timezone for America/Los_Angeles
 /etc/localtime -> /usr/share/zoneinfo/America/Los_Angeles
+* Configure time: 
+    > ntpd -qg (Need to set up NTP at this point or else openssl won't work properly )
+    > hwclock -w
 
 Firmware Releases:
-SMILE BSP 0.0.3
-* rootfs:
-* uImage (kernel):
-* uBoot: 
-* ubifs rootfs.img: 
+SMILE BSP 0.4.0rc1
+* rootfs: TBD
+* uImage (kernel): TBD
+* uBoot: TBD
+* ubifs rootfs.img: TBD
