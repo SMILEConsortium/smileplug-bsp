@@ -25,11 +25,11 @@ NPM Modules:
 * forever (install in global)
 * forever-webui (npm package is busted, public repo is defunt, so we have forked here, off HEAD of https://github.com/truedat101/forever-webui.git) ,
   wget  https://nodeload.github.com/truedat101/forever-webui/tar.gz/master , install dependencies, access on port 8085
-* ccn4bnode (0.2.5)
+* ccn4bnode (0.2.8)
 
 Other Non-NPM Node Software:
-* SMILE Server 0.2.20 (this holds pointers to all Android software used)
-* Plugmin Server 0.0.5
+* SMILE Server 0.2.23 (this holds pointers to all Android software used)
+* Plugmin Server 0.5.1
 
 Scripts:
 * dhcpd-status.sh -> /root/spdist/dhcpd-pool-0.2/dhcpd-status-arch.sh
@@ -49,8 +49,10 @@ Assigned Ports
 * 8008 (TTY.js)
 * 8085 (forever-webui)
 * 9023 (NIDE)
+* 9695 (CCNx CCND Status)
+* 9700 (CCN4BNode Web UI)
 * 9080 (plugmin WS/Web UI)
-* 5000 (epochedu) - 
+* 5000 (epochedu)
 
 Python Modules:
 
@@ -91,7 +93,7 @@ Some manual commands to run in the configuration of a new BSP based on arch:
     > hwclock -w
 
 Firmware Releases:
-SMILE BSP 0.4.0rc1
+SMILE BSP 0.4.0
 * rootfs: TBD
 * uImage (kernel): TBD
 * uBoot: TBD
