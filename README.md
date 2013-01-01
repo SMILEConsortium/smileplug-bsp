@@ -29,7 +29,8 @@ NPM Modules:
 
 Other Non-NPM Node Software:
 * SMILE Server 0.2.23 (this holds pointers to all Android software used)
-* Plugmin Server 0.5.1
+* Plugmin Server 0.5.4
+* EpochEDU 0.6.0
 
 Scripts:
 * dhcpd-status.sh -> /root/spdist/dhcpd-pool-0.2/dhcpd-status-arch.sh
