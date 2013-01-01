@@ -1,0 +1,6 @@
+#
+# Set ARGS to point to your initial Node.js app/service
+#
+ARGS="/root/ccn4bnode/ccn4bnode-server.js"
+SERVERDIR="/root/ccn4bnode"
+DAEMON="/usr/bin/forever"
