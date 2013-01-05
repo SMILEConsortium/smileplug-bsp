@@ -30,7 +30,7 @@ NPM Modules:
 Other Non-NPM Node Software:
 * SMILE Server 0.2.24 (this holds pointers to all Android software used)
 * Plugmin Server 0.5.4
-* EpochEDU 0.6.0
+* EpochEDU 0.6.0 (Needs a fix)
 
 Scripts:
 * dhcpd-status.sh -> /root/spdist/dhcpd-pool-0.2/dhcpd-status-arch.sh
@@ -94,7 +94,7 @@ Some manual commands to run in the configuration of a new BSP based on arch:
     > hwclock -w
 
 Firmware Releases:
-SMILE BSP 0.4.0
+SMILE BSP 0.5.0
 * rootfs: TBD
 * uImage (kernel): TBD
 * uBoot: TBD
