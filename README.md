@@ -28,8 +28,8 @@ NPM Modules:
 * ccn4bnode (0.2.8)
 
 Other Non-NPM Node Software:
-* SMILE Server 0.2.24 (this holds pointers to all Android software used)
-* Plugmin Server 0.5.4
+* SMILE Server 0.2.25 (this holds pointers to all Android software used)
+* Plugmin Server 0.5.6
 * EpochEDU 0.6.0
 
 Scripts:
