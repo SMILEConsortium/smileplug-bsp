@@ -28,6 +28,7 @@ NPM Modules:
 * ccn4bnode (0.2.8)
 
 Other Non-NPM Node Software:
+
 * SMILE Server 0.2.25 (this holds pointers to all Android software used)
 * Plugmin Server 0.5.6
 * EpochEDU 0.6.0
@@ -94,7 +95,7 @@ Some manual commands to run in the configuration of a new BSP based on arch:
     > hwclock -w
 
 Firmware Releases:
-SMILE BSP 0.4.0
+SMILE BSP 0.5.0
 * rootfs: TBD
 * uImage (kernel): TBD
 * uBoot: TBD
