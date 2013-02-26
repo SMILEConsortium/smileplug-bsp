@@ -10,7 +10,7 @@ Kernel and wifi sources:
 * https://github.com/kmihelich/linux-smileplug
 * https://github.com/kmihelich/wlan-smileplug
 
-The Non-public toolchain needed is listed under the "Generic SDK 5.0" on the extranet.  Please contact Marvell for access.  Folder location is: My Products > Embedded Processors > ARMADA 370 > Software > Old Versions > Generic SDK 5.0 > Little Endian
+The *Non-public* toolchain needed is listed under the "Generic SDK 5.0" on the extranet.  Due to some incompatibilities with the WLAN driver and Kernel, we were unable to build with a publicly available toolchain.  Please contact Marvell for access and to resolve build support issues.  Folder location is: My Products > Embedded Processors > ARMADA 370 > Software > Old Versions > Generic SDK 5.0 > Little Endian
 
 Current RootFS: 
 
