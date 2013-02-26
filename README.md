@@ -3,6 +3,24 @@ smileplug-bsp
 
 This is a bunch of initial config.  This will include a set of configs to be applied in the BSP.
 
+Release Sources
+===============
+Kernel and wifi sources:
+
+* https://github.com/kmihelich/linux-smileplug
+* https://github.com/kmihelich/wlan-smileplug
+
+The Non-public toolchain needed is listed under the "Generic SDK 5.0" on the extranet.  Please contact Marvell for access.  Folder location is: My Products > Embedded Processors > ARMADA 370 > Software > Old Versions > Generic SDK 5.0 > Little Endian
+
+Current RootFS: 
+
+* Tarball: http://polyblog.s3.amazonaws.com/ArchLinuxARM-2013-02-04a-smileplug-rootfs.tar.bz2
+* Image: http://polyblog.s3.amazonaws.com/smileplugbsp-0.5.2-rootfs.img
+
+General Arch Linux Arm details on SMILE Plug release (may not be current):
+
+* http://archlinuxarm.org/smile-plug
+
 Pacman Package Manifest
 =======================
 
