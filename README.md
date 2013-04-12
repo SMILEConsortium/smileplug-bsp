@@ -17,7 +17,14 @@ Current RootFS:
 * Tarball: http://polyblog.s3.amazonaws.com/ArchLinuxARM-2013-02-04a-smileplug-rootfs.tar.bz2
 * Image: http://polyblog.s3.amazonaws.com/smileplugbsp-0.5.2-rootfs.img
 
-General Arch Linux Arm details on SMILE Plug release (may not be current):
+Clean and Configuration Guide
+
+Use this doc to help you get your configuration set up and remove any SMILE software you don't need.
+
+* PDF Document: https://www.dropbox.com/s/6cj36bomfmzvyal/SMILEPlugCleanAndConfigGuide.pdf
+
+
+General Arch Linux Arm details on SMILE Plug release (NOTE, this is not current, as the Arch Linux ARM team has not yet officially posted a support link for this device yet):
 
 * http://archlinuxarm.org/smile-plug
 
