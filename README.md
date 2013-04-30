@@ -17,6 +17,9 @@ Current RootFS:
 * Tarball: http://polyblog.s3.amazonaws.com/ArchLinuxARM-2013-02-04a-smileplug-rootfs.tar.bz2
 * Image: http://polyblog.s3.amazonaws.com/smileplugbsp-0.5.2-rootfs.img
 
+All items mentioned in this page are found in a single zip file:
+    http://smilec.s3.amazonaws.com/smileplugbom-0.5.2.zip
+
 Clean and Configuration Guide
 
 Use this doc to help you get your configuration set up and remove any SMILE software you don't need.
