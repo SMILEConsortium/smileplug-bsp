@@ -2,8 +2,10 @@ CONNECTION='ethernet'
 DESCRIPTION='SMILEplug Admin Interface'
 INTERFACE='eth1'
 IP='static'
-ADDR='10.0.0.1'
+ADDR='10.0.0.16'
 SKIPNOCARRIER='yes'
+GATEWAY='10.0.0.1'
+DNS=('10.0.0.1')
 
 ## For IPv6 autoconfiguration
 #IP6=stateless
