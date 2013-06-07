@@ -1,0 +1,18 @@
+BOM NAME: SMILE Plug BSP
+BOM VERSION: 0.5.2
+BOM Download: http://smilec.s3.amazonaws.com/smileplugbom-0.5.2.zip
+BOM FILE List:
+./wlan-smileplug-master.zip
+./smileplugbsp-0.5.2-rootfs.img
+./github.com
+./github.com/SMILEConsortium
+./github.com/SMILEConsortium/smileplug-bsp.html
+./github.com/robots.txt
+./github.com/kmihelich
+./github.com/kmihelich/wlan-smileplug.html
+./github.com/kmihelich/linux-smileplug.html
+./SMILEPlugCleanAndConfigGuide.pdf
+./smileplug-bsp-master.zip
+./ArchLinuxARM-2013-02-04a-smileplug-rootfs.tar.bz2
+./linux-smileplug-master.zip
+./smile-plug.html
