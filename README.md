@@ -14,10 +14,12 @@ The *Non-public* toolchain needed is listed under the "Generic SDK 5.0" on the e
 
 Current RootFS: 
 
-* Tarball: http://polyblog.s3.amazonaws.com/ArchLinuxARM-2013-02-04a-smileplug-rootfs.tar.bz2
-* Image: http://polyblog.s3.amazonaws.com/smileplugbsp-0.5.2-rootfs.img
+* Rootfs Tarball: http://polyblog.s3.amazonaws.com/ArchLinuxARM-2013-07-18-smileplug-0.5.3b-rootfs.tar.bz2
+* Rootfs Tarball md5: http://polyblog.s3.amazonaws.com/ArchLinuxARM-2013-07-18-smileplug-0.5.3b-rootfs.tar.bz2.md5
+* Rootfs Image: http://polyblog.s3.amazonaws.com/smileplugbsp-0.5.3b-rootfs.img
+* Rootfs Image md5 hash: http://polyblog.s3.amazonaws.com/smileplugbsp-0.5.3b-rootfs.img.md5
 
-All items mentioned in this page are found in a single zip file:
+All items mentioned in this page are found in a single zip file *TODO* update this zip:
     http://smilec.s3.amazonaws.com/smileplugbom-0.5.2.zip
 
 Clean and Configuration Guide
@@ -123,9 +125,23 @@ Some manual commands to run in the configuration of a new BSP based on arch:
     > ntpd -qg (Need to set up NTP at this point or else openssl won't work properly )
     > hwclock -w
 
-Firmware Releases:
-SMILE BSP 0.5.0
+Firmware Releases Changelog
+===========================
+
+SMILE BSP 0.5.3
 * rootfs: TBD
 * uImage (kernel): TBD
 * uBoot: TBD
 * ubifs rootfs.img: TBD
+
+Arch Linux ARM Tips
+===================
+
+* Until we complete the migration to the mainline Arch Linux ARM community release (and more modern kernel), it is not recommended to attempt to run a complete upgrade
+* If you need to install packages from AUR, you minimally will want to run as root: pacman -Sy <package name>
+
+Roadmap
+=======
+
+* 0.5.4 - Release additional SMILE software bug fixes
+* 0.6.0 - Complete migration to mainlain Arch Linux ARM distro
