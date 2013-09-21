@@ -28,6 +28,15 @@ Use this doc to help you get your configuration set up and remove any SMILE soft
 
 * PDF Document: https://www.dropbox.com/s/6cj36bomfmzvyal/SMILEPlugCleanAndConfigGuide.pdf
 
+WiFi Conifguration Notes
+
+The Wireless Module, AP-8764 has it's source code for the driver released under GPLv2 license (see above).   The
+localation of the configuration tools man pages or detailed docs specific to the AP-8764 are proprietary and only
+available through the tools vendors.  Because the tools are GPLv2, the sources for the tools should be published
+somewhere.  
+
+Here are some basic notes in GIST form to cover WPA2 configuration: https://gist.github.com/truedat101/6646367
+
 
 General Arch Linux Arm details on SMILE Plug release (NOTE, this is not current, as the Arch Linux ARM team has not yet officially posted a support link for this device yet):
 
