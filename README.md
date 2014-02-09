@@ -21,7 +21,11 @@ Kernel and wifi sources:
 
 The *Non-public* toolchain needed is listed under the "Generic SDK 5.0" on the extranet.  Due to some incompatibilities with the WLAN driver and Kernel, we were unable to build with a publicly available toolchain.  Please contact Marvell for access and to resolve build support issues.  Folder location is: My Products > Embedded Processors > ARMADA 370 > Software > Old Versions > Generic SDK 5.0 > Little Endian
 
-Current RootFS: 
+Current Release:
+* Rootfs Tarball: http://polyblog.s3.amazonaws.com/ArchLinuxARM-2014-02-05-smileplug-0.5.5a-jamsj-rootfs.tar.bz2
+* Rootfs Tarball md5: http://polyblog.s3.amazonaws.com/ArchLinuxARM-2014-02-05-smileplug-0.5.5a-jamsj-rootfs.tar.bz2.md5
+* Rootfs Image: http://polyblog.s3.amazonaws.com/smileplugbsp-0.5.5a-jamsj-rootfs.img
+* Rootfs Image md5 hash: http://polyblog.s3.amazonaws.com/smileplugbsp-0.5.5a-jamsj-rootfs.img.md5
 
 
 Previous Releases:
@@ -31,7 +35,7 @@ Previous Releases:
 * Rootfs Image md5 hash: http://polyblog.s3.amazonaws.com/smileplug-0.5.4a-rootfs.img.md5
 
 All items mentioned in this page are found in a single zip file *TODO* update this zip:
-    http://smilec.s3.amazonaws.com/smileplugbom-0.5.2.zip
+    http://polyblog.s3.amazonaws.com/smileplugbom-0.5.5a-jamsj.zip
 
 Clean and Configuration Guide
 
